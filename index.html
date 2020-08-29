@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Bootstrap Example</title>
+	<!-- CSS only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/styles.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
+</head>
+<body>
+	<!-- Navigation Bar -->
+		<nav class="navbar navbar-dark bg-dark">
+			<div class="collapse navbar-collapse mb-3" id="navbar">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-6 pl-1 pl-sm-5">
+							<div class="about text-light mb-3">About</div>
+							<div class="aboutdetails text-secondary">
+								Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.
+							</div>
+						</div>
+						<div class="col-sm-6 text-light pl-1 pl-sm-5 my-4 mt-sm-0">
+							<div class="contact mb-3">Contact</div>
+							<div class="twitter mb-2"><a href="https://twitter.com/chetanhaobijam" class="text-light">Follow on Twitter</a></div>
+							<div class="facebook mb-2"><a href="https://facebook.com/chetanhaobijam" class="text-light">Like on Facebook</a></div>
+							<div clas="email mb-2"><a href="mailto:chetanhaobijam@gmail.com" class="text-light">Email Me</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="navbar-brand ml-sm-5"><i class="fas fa-camera-retro mr-3"></i>Album Example</a>
+			<button class="navbar-toggler mr-sm-5" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle Navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</nav>
+
+
+		<!-- Jumbotron -->
+		<div class="container-fluid jumbotron">
+			<div class="row flex-column text-center align-items-center">
+				<h1 class="col mb-4 jumbotitle">Album Example</h1>
+				<div class="col-md-10 col-lg-8 col-xl-6 mb-4 lead">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</div>
+				<div class="col">
+					<button class="maincall btn btn-primary">Main call to action</button>
+					<button class="secondaryaction btn btn-secondary">Secondary action</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Cards -->
+		<div class="container-fluid">
+			<div class="row">
+				<!-- 1 Card -->
+				<div class="col-sm-6 col-md-4 col-xl-3 mb-4">
+					<div class="card">
+						<img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="No image">
+						<div class="card-body">
+							<h5 class="card-title">Image Title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<div class="d-flex justify-content-between">
+								<div class="vieworedit text-primary d-flex">
+									<div class="view p-2 border border-dark">View</div>
+									<div class="edit p-2 border border-dark border-left-0">Edit</div>
+								</div>
+								<div class="interaction d-flex">
+									<div class="love mr-1 btn btn-outline-danger"><i class="fas fa-heart"></i></div>
+									<div class="download btn btn-outline-success mr-1"><i class="fas fa-download"></i></div>
+									<div class="delete btn btn-danger"><i class="fas fa-trash"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 1 Card -->
+				<div class="col-sm-6 col-md-4 col-xl-3 mb-4">
+					<div class="card">
+						<img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="No image">
+						<div class="card-body">
+							<h5 class="card-title">Image Title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<div class="d-flex justify-content-between">
+								<div class="vieworedit text-primary d-flex">
+									<div class="view p-2 border border-dark">View</div>
+									<div class="edit p-2 border border-dark border-left-0">Edit</div>
+								</div>
+								<div class="interaction d-flex">
+									<div class="love mr-1 btn btn-outline-danger"><i class="fas fa-heart"></i></div>
+									<div class="download btn btn-outline-success mr-1"><i class="fas fa-download"></i></div>
+									<div class="delete btn btn-danger"><i class="fas fa-trash"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 1 Card -->
+				<div class="col-sm-6 col-md-4 col-xl-3 mb-4">
+					<div class="card">
+						<img src="https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="No image">
+						<div class="card-body">
+							<h5 class="card-title">Image Title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<div class="d-flex justify-content-between">
+								<div class="vieworedit text-primary d-flex">
+									<div class="view p-2 border border-dark">View</div>
+									<div class="edit p-2 border border-dark border-left-0">Edit</div>
+								</div>
+								<div class="interaction d-flex">
+									<div class="love mr-1 btn btn-outline-danger"><i class="fas fa-heart"></i></div>
+									<div class="download btn btn-outline-success mr-1"><i class="fas fa-download"></i></div>
+									<div class="delete btn btn-danger"><i class="fas fa-trash"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 1 Card -->
+				<div class="col-sm-6 col-md-4 col-xl-3 mb-4">
+					<div class="card">
+						<img src="https://images.unsplash.com/photo-1474524955719-b9f87c50ce47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="No image">
+						<div class="card-body">
+							<h5 class="card-title">Image Title</h5>
+							<p class="card-text">some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<div class="d-flex justify-content-between">
+								<div class="vieworedit text-primary d-flex">
+									<div class="view p-2 border border-dark">View</div>
+									<div class="edit p-2 border border-dark border-left-0">Edit</div>
+								</div>
+								<div class="interaction d-flex">
+									<div class="love mr-1 btn btn-outline-danger"><i class="fas fa-heart"></i></div>
+									<div class="download btn btn-outline-success mr-1"><i class="fas fa-download"></i></div>
+									<div class="delete btn btn-danger"><i class="fas fa-trash"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="text-right text-primary mt-5">&copy; 2020. Created by Haobijam Chetan Singh.</footer>	
+
+
+		<!-- Custom Javascript -->
+		<script type="text/Javascript" src="assets/script.js"></script>
+		<!-- JS, Popper.js, and jQuery -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</body>
+</html>
